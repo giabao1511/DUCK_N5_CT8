@@ -1,0 +1,16 @@
+Kiểm thử hiệu năng đối với thông số 
+1.Thread group(users): 10
+2.Ram up: 10
+3.Loop: 1
+cho trang web Nguyễn Kim em có những nhận xét và những kết luận sau:
+I.Kết luận: 
+	Trang web truy cập bình thường đối với khi 10 users truy cập vào trang  web cũng lúc
+II.Nhận xét:
+	-Khi chạy thì không xuất hiện lỗi, tất cả các request của trang web Nguyễn Kim 
+	có mức độ Error % : là bằng 0.00% trong bảng Aggregate Report
+	-Thời gian phản hồi trung bình của request thấp
+	-Thời gian phản hồi trung bình nhanh nhất của request là trang KhuyenMai
+	-Thời gian phản hồi trung bình lâu nhất của request là trang chủ NguyenKim
+	-Tất cả các giá trị của dộ lệch chuẩn đều nhỏ hơn thời gian phản hồi của tất cả các request
+	-Số lượng request được server xử lý trong một đơn vị thời gian (Throughput) đều cao trừ trang chủ 
+=> Sau khi test hiệu năng của trang web Nguyễn Kim đối với thông số Thread group(users): 10 thì ổn không có gì vướng ngại

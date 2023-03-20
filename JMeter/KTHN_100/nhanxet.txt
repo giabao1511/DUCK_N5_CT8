@@ -1,0 +1,13 @@
+Thread group (users): 100
+Ram up: 10
+Loop: 1
++Kết quả:
+100% Thread Group chạy thành công
+
++Nhận xét:
+Nếu Running thread cao hoặc gần bằng number of thread group thì sẽ xuất hiện lỗi, 
+khi xuất hiện lỗi thì giai đoạn tăng tốc sẽ chạy đến 20s sau đó running thread sẽ chạy về 0 ở
+giây thứ 30.Nếu đường truyền Internet không ổn định sẽ xuất hiện lỗi
+Trong trường hợp thread group chạy đc 100% thì Deviation(Graph Results) là thấp, View Result 
+Tree nếu thread đúng hết thì sẽ xanh hết. 
+
